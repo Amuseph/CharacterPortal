@@ -1,4 +1,5 @@
 import logo from './larping.jpg';
+import Button from 'react-bootstrap/Button';
 import './App.css';
 
 function App() {
@@ -11,6 +12,9 @@ function App() {
         </p>
         <p>
           Gather your friends! Its KLARPING time
+        </p>
+        <p>
+          PS: No Bully
         </p>
       </header>
     </div>
