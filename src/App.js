@@ -1,5 +1,4 @@
 import logo from './larping.jpg';
-import Button from 'react-bootstrap/Button';
 import './App.css';
 
 function App() {
