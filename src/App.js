@@ -1,8 +1,10 @@
 import logo from './larping.jpg';
 import './App.css';
+import Layout from './components/Layout/Layout'
 
 function App() {
   return (
+    <Layout>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -17,7 +19,8 @@ function App() {
         </p>
       </header>
     </div>
-  );
+    </Layout>
+  )
 }
 
 export default App;
