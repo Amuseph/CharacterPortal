@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './larping.png';
 import './App.css';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
           Project KLARP
         </p>
         <p>
-          Kieran hates this name
+          Gather your friends! Its KLARPING time
         </p>
       </header>
     </div>
