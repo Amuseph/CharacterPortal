@@ -1,4 +1,4 @@
-import logo from './larping.png';
+import logo from './larping.jpg';
 import './App.css';
 
 function App() {
