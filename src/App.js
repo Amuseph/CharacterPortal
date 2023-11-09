@@ -1,4 +1,3 @@
-import logo from './larping.jpg';
 import './App.css';
 import Layout from './components/Layout/Layout'
 
