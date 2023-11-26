@@ -40,7 +40,7 @@ const start = async () => {
   app.set('views','./views');
     
   app.listen(PORT, function () {
-    console.log('App listening on port 3000!')
+    console.log('App listening on port 8080!')
   })
 }
 
