@@ -8,12 +8,12 @@ import express from 'express'
 
 const start = async () => {
   const app = express()
-
+ /*
   AdminJS.registerAdapter({
     Database,
     Resource,
   })
-  const db = await new Adapter('postgresql', {
+ const db = await new Adapter('postgresql', {
     connectionString: 'postgres://postgres:postgres@localhost:5432/larpdb',
     database: 'larpdb',
   }).init()
@@ -31,6 +31,7 @@ const start = async () => {
   const adminRouter = Plugin.buildRouter(admin)
 
   app.use(admin.options.rootPath, adminRouter)
+  */
   app.use('/', Routes)
 
   app.use(express.static('public'));
@@ -39,7 +40,7 @@ const start = async () => {
   app.set('views','./views');
     
   app.listen(PORT, () => {
-    console.log(`AdminJS started on http://localhost:${PORT}${admin.options.rootPath}`)
+    console.log('Server Started')
   })
 }
 
