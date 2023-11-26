@@ -39,8 +39,8 @@ const start = async () => {
   app.set('view engine', 'pug');
   app.set('views','./views');
     
-  app.listen(PORT, () => {
-    console.log('Server Started')
+  app.listen(PORT, function () {
+    console.log('App listening on port 3000!')
   })
 }
 
