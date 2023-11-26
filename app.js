@@ -3,7 +3,7 @@
 //import Plugin from '@adminjs/express'
 import Routes from './routes.js'
 
-const PORT = 3000
+const PORT = 8080
 import express from 'express'
 
 const start = async () => {
