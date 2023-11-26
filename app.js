@@ -1,6 +1,6 @@
-import AdminJS from 'adminjs'
-import { Adapter, Resource, Database } from '@adminjs/sql'
-import Plugin from '@adminjs/express'
+//import AdminJS from 'adminjs'
+//import { Adapter, Resource, Database } from '@adminjs/sql'
+//import Plugin from '@adminjs/express'
 import Routes from './routes.js'
 
 const PORT = 3000
